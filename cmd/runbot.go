@@ -6,7 +6,7 @@ package cmd
 import (
 	"fmt"
 	"log"
-	"state-machine-telegram-bot/internal/adapters/telegram"
+	"telegram-bot/internal/adapters/telegram"
 
 	"github.com/spf13/cobra"
 )

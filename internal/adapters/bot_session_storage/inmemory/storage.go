@@ -3,7 +3,7 @@ package botsessionstorage
 import (
 	"context"
 	"errors"
-	"state-machine-telegram-bot/internal/port"
+	"telegram-bot/internal/port"
 )
 
 type botSessionStorate struct {

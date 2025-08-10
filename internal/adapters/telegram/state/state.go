@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"state-machine-telegram-bot/internal/port"
 	"strconv"
+	"telegram-bot/internal/port"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )

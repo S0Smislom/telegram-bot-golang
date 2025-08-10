@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 	"regexp"
-	"state-machine-telegram-bot/internal/adapters/telegram/state"
+	"telegram-bot/internal/adapters/telegram/state"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )

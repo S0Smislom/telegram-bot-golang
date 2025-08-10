@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"state-machine-telegram-bot/internal/di"
+	"telegram-bot/internal/di"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )

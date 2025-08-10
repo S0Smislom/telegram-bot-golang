@@ -1,10 +1,10 @@
 package di
 
 import (
-	botsessionstorage "state-machine-telegram-bot/internal/adapters/bot_session_storage/inmemory"
-	"state-machine-telegram-bot/internal/config"
-	"state-machine-telegram-bot/internal/port"
 	"sync"
+	botsessionstorage "telegram-bot/internal/adapters/bot_session_storage/inmemory"
+	"telegram-bot/internal/config"
+	"telegram-bot/internal/port"
 )
 
 type Container struct {

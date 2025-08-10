@@ -4,8 +4,8 @@ tmp_dir = "build"
 
 [build]
   args_bin = ["runbot"]
-  bin = "./build/state-machine-telegram-bot"
-  cmd = "go build -o ./build/state-machine-telegram-bot ."
+  bin = "./build/telegram-bot"
+  cmd = "go build -o ./build/telegram-bot ."
   delay = 1000
   exclude_dir = ["assets", "build", "vendor", "testdata", "db_data", "db_dump", "internal/adapters/api/docs"]
   exclude_file = []
